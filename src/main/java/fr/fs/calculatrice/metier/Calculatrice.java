@@ -6,8 +6,6 @@ public class Calculatrice {
     private Operande operande1 = new Operande("0");
     private Operande operande2 = new Operande("");
     private String textResult = "";
-    private long op1 = 2;
-    private long op2 = 2;
 
     public Calculatrice() {
     }
