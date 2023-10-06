@@ -14,9 +14,18 @@ public class Calculatrice {
         this.textResult = textResult;
     }
 
-    public String Number(Button button) { //permet d'afficher les nombres quand on les tape sur le clavier de la calculette
+    public String defineNumber(Button button) { //permet d'afficher les nombres quand on les tape sur le clavier de la calculette
         String number = button.getText();
         textResult = textResult + number;
+        return textResult;
+    }
+
+    public String defineVirgule(Button button) {
+        String virgule = button.getText();
+        if(virgule .equals(",")){
+            virgule = ".";
+        }
+        textResult = textResult + virgule;
         return textResult;
     }
 

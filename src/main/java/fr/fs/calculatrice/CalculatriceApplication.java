@@ -12,6 +12,7 @@ public class CalculatriceApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CalculatriceApplication.class.getResource("calculatrice-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
+        scene.getStylesheets().add(getClass().getResource("calc.css").toExternalForm());
         stage.setTitle("Calculatrice");
         stage.setScene(scene);
         stage.show();
