@@ -1,4 +1,43 @@
-#operatorLabel{
-    -fx-border-color: #CCCCCC;
+#operatorLine{
+    -fx-border-color: #201E1B;
     -fx-border-width: 0 0 0 2px;
+}
+
+#number{
+    -fx-background-color: #505050;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+}
+
+#operator{
+    -fx-background-color: #FF9500;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+}
+
+#background{
+    -fx-background-color: #1C1C1C;
+}
+
+#eraser{
+    -fx-background-color: #A2A2A2;
+    -fx-text-fill: #201E1B;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+
+}
+
+#calcul{
+    -fx-background-color: #A7AF7C;
+    -fx-text-fill: #201E1B;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+}
+
+.split-pane-divider{
+    -fx-background-color: #201E1B;
+   -fx-padding: 1px;
+
 }
