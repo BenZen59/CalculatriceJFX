@@ -22,12 +22,12 @@ public class CalculatriceApplication extends Application {
         scene.getStylesheets().add(getClass().getResource("calc.css").toExternalForm());
         stage.setTitle("Calculatrice");
         stage.setScene(scene);
-        stage.setMinWidth(300);
-        stage.setMinHeight(440);
+        stage.setMinWidth(350);
+        stage.setMinHeight(500);
         stage.setMaxWidth(900);
         stage.setMaxHeight(1000);
-        stage.setWidth(380);
-        stage.setHeight(450);
+        stage.setWidth(400);
+        stage.setHeight(600);
         stage.getIcons().add(new Image("file:src/main/resources/images/calculator.png"));
         widthChangeListener = (observable, oldValue, newValue) -> widthChange(newValue);
         heightChangeListener = (observable, oldValue, newValue) -> heightChangeListener(newValue);

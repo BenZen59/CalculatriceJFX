@@ -29,6 +29,14 @@
 
 }
 
+#othercalcul{
+    -fx-background-color: #38393D;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+
+}
+
 #calcul{
     -fx-background-color: #A7AF7C;
     -fx-text-fill: #201E1B;
