@@ -10,12 +10,12 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="466.0" maxWidth="716.0" minHeight="337.0" minWidth="336.0" prefHeight="401.0" prefWidth="363.0" scaleShape="false" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.fs.calculatrice.CalculatriceController">
+<AnchorPane scaleShape="false" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.fs.calculatrice.CalculatriceController">
    <padding>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </padding>
    <children>
-      <GridPane alignment="CENTER" cache="true" layoutX="72.0" layoutY="122.0" prefHeight="272.0" prefWidth="336.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+      <GridPane alignment="CENTER" cache="true" layoutX="72.0" layoutY="122.0" prefHeight="272.0" prefWidth="336.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="106.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -30,103 +30,157 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#memoryCalculateEvent" prefHeight="50.0" prefWidth="77.0" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#memoryCalculateEvent" text="/" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#virguleEvent" prefHeight="50.0" prefWidth="77.0" text="," textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#virguleEvent" text="," textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#egaleEvent" prefHeight="50.0" prefWidth="77.0" text="=" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#egaleEvent" text="=" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="1" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="1" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#memoryCalculateEvent" prefHeight="50.0" prefWidth="77.0" text="+" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#memoryCalculateEvent" text="+" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="4" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="4" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="5" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="5" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="6" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="6" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#memoryCalculateEvent" prefHeight="50.0" prefWidth="77.0" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#memoryCalculateEvent" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="7" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" styleClass="nu" text="7" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="8" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="8" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#numberEvent" prefHeight="50.0" prefWidth="77.0" text="9" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#numberEvent" text="9" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#memoryCalculateEvent" prefHeight="50.0" prefWidth="77.0" text="x" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#memoryCalculateEvent" text="x" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#clearErrorEvent" prefHeight="50.0" prefWidth="77.0" text="CE" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#clearErrorEvent" text="CE" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#clearEvent" prefHeight="50.0" prefWidth="77.0" text="C" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="400.0" maxWidth="380.0" mnemonicParsing="false" onAction="#clearEvent" text="C" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                <font>
                   <Font size="24.0" />
                </font>
+               <GridPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </GridPane.margin>
             </Button>
          </children>
       </GridPane>
-      <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="8.0" orientation="VERTICAL" prefHeight="86.0" prefWidth="323.0">
+      <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="8.0" orientation="VERTICAL" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="5.0">
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="22.0" prefWidth="321.0">
                <children>
-                  <Label fx:id="memoryLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="40.0" prefWidth="287.0">
+                  <Label fx:id="memoryLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutY="-5.0" prefHeight="40.0" prefWidth="287.0" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="47.0" AnchorPane.topAnchor="-5.0">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -134,7 +188,7 @@
                         <Insets right="10.0" />
                      </padding>
                   </Label>
-                  <Label fx:id="operatorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" prefHeight="40.0" prefWidth="35.0" textAlignment="CENTER">
+                  <Label fx:id="operatorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" layoutY="-8.0" prefHeight="40.0" prefWidth="48.0" textAlignment="CENTER" AnchorPane.bottomAnchor="-1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-8.0">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -146,7 +200,7 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="40.0" prefWidth="205.0">
                <children>
-                  <Label fx:id="calculateLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="40.0" prefWidth="321.0" textAlignment="RIGHT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Label fx:id="calculateLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutY="-5.0" prefHeight="40.0" prefWidth="334.0" textAlignment="RIGHT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-5.0">
                      <font>
                         <Font size="24.0" />
                      </font>
